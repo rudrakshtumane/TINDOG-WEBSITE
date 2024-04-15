@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.bgimg {
+  background-image: url(./background\ image.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+nav {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navlist {
+  margin-left: 90px;
+  padding-top: 50px;
+}
+a {
+  padding-left: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+  /* color: white; */
+}
+.searchbar {
+  margin-left: 160px;
+  padding-top: 50px;
+}
+a:hover {
+  color: orange;
+}
+h1 {
+  padding-left: 90px;
+  /* margin-top: 10px; */
+  font-family: "RocknRoll One", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 80px;
+}
+h3 {
+  padding-left: 90px;
+  margin-top: 5px;
+  font-size: 30px;
+  color: rgb(18, 153, 199);
+}
+.button_1 > button {
+  margin-left: 90px;
+  margin-top: 50px;
+  width: 130px;
+  height: 50px;
+  background-color: #ffb100;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.card {
+    margin-top: 50px;
+  width: 30%;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: justify;
+}
+
+p {
+  line-height: 2;
+}
+h5 {
+  font-weight: lighter;
+}
+#allcardbox {
+    border-bottom: 1px solid black;
+  
+    
+}
+.older_entries {
+    
+    color: blue;
+    padding-left: 20px;
+}
+.buttons > button {
+  
+    color: white;
+    width: 40px;
+    height: 40px;
+   background-color: #ffb100;
+   border: none;
+   font-size: larger;
+   margin-top: 60px;
+   
+}
+input{
+  margin-top: 10px;
+    padding-left: 20px;
+    color: black;
+    width: 450px;
+    height: 40px;
+    text-align: initial;
+    cursor:text;
+    padding-right: 50px;
+    font-size: larger;
+    border:1px solid black ;
+   
+}
+.cont_container {
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.categories {
+  color: #ffb100;
+    list-style-type: none; 
+}
+ul {
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+.categories  li {
+  padding-top: 8px;
+}
+.site_resources li {
+ list-style-type: none;
+ padding-top: 8px;
+   color: #ffb100;
+   
+}
+.footer {
+  text-align: center;
+  font-size: larger;
+}
